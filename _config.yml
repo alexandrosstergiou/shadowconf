@@ -1,7 +1,8 @@
 
-plugins: ['jekyll-include-cache']
+#plugins: ['jekyll-include-cache']
 banner: '/imgs/banner.png'
-theme: jekyll-theme-conference
+#theme: jekyll-theme-conference
+remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@v3.6.1"
 
 # Build settings
 markdown: kramdown
