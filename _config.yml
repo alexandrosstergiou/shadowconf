@@ -74,8 +74,6 @@ conference:
       #img: '/imgs/placeholder_banner.png'
     breakpoint: md
     links:
-      - name: NCCV2025
-        relative_url: "https://alexandrosstergiou.github.io/shadowconf/"
       - name: Program
         relative_url: /program/
       - name: Sessions
