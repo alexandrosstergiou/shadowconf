@@ -1,5 +1,5 @@
 
-plugins: 'jekyll-include-cache'
+plugins: ['jekyll-include-cache']
 banner: '/imgs/banner.png'
 theme: jekyll-theme-conference
 
