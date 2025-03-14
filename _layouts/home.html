@@ -6,18 +6,16 @@
         <img src="{{ site.conference.main.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-75 d-none d-md-inline" alt="{{ site.title }}" />
         <img src="{{ site.conference.main.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-100 d-md-none" alt="{{ site.title }}" />
       {% elsif page.title %}
-        {{ page.title }}
       {% else %}
-        {{ site.title }}
       {% endif %}
     </h1>
     {% if site.banner != none %}
     <img src= "{{ site.banner }}" class="rounded mx-auto d-block" alt="banner" style="width:100%">
     {% endif %}
     {% if site.description != none %}
-      <p class="lead">
+      <!-- <p class="lead">
         {{ site.description | markdownify | replace: '<p>', '<p class="lead">' }}
-      </p>
+      </p> -->
     {% endif %}
 
     <hr class="my-4">

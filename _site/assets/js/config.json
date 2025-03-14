@@ -1,14 +1,14 @@
 {
     "map": {
         "map_provider": "OpenStreetMap.Mapnik",
-        "home_coord": [52.239, 6.849],
+        "home_coord": [52.120410, 5.038648],
         "default_zoom": 17
     },
 
     "live": {
         "time": {
-            "start": 1580464800,
-            "end": 1580558400
+            "start": 1747908000,
+            "end": 1748001600
         },
 
         "streaming": {
